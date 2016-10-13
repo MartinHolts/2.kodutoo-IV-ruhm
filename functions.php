@@ -1,6 +1,6 @@
 <?php 
 
-	require("../../../config.php");
+	require("../../config.php");
 	
 	// see fail peab olema siis seotud kõigiga kus
 	// tahame sessiooni kasutada
@@ -63,7 +63,7 @@
 				//echo "ERROR";
 				
 				header("Location: data.php");
-				
+				exit;
 			} else {
 				$notice = "parool vale";
 			}
